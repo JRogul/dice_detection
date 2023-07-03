@@ -13,14 +13,14 @@ def file_upload():
         uploaded_file_name = uploaded_file.name
         image = Image.open(uploaded_file)
         img_array = np.array(image)
-        st.image(img_array, caption='Uploaded Image', use_column_width=True)
+        #st.image(img_array, caption='Uploaded Image', use_column_width=True)
         return img_array, uploaded_file_name
 
 
 def main():
     RUNS_PATH = 'runs/detect'
-
-    st.title('Image Upload')
+    
+    st.title('Dice counter/dots counter')
     image_upload = file_upload()
     if image_upload is not None:
         image, file_name = image_upload
