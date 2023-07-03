@@ -4,7 +4,7 @@ In this project, I developed a dice detection system using the YOLOv7 model. The
 
 [dataset](https://www.kaggle.com/datasets/nellbyler/d6-dice)
 
-![Example Image](data\streamlit_app_example.jpg)
+![Example Image](streamlit_app_example.jpg)
 
 # Run Demo Locally
 
